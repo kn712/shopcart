@@ -4,7 +4,6 @@ import HomeCategories from "@/components/HomeCategories";
 import LatestBlog from "@/components/LatestBlog";
 import ProductGrid from "@/components/ProductGrid";
 import ShopByBrands from "@/components/ShopByBrands";
-import { Button } from "@/components/ui/button";
 import { getCategories } from "@/sanity/queries";
 
 const Home = async () => {

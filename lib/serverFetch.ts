@@ -3,7 +3,7 @@ import { backendClient } from "@/sanity/lib/backendClient";
 
 interface ServerFetchOptions {
   query: string;
-  params?: Record<string, any>;
+  params?: Record<string, unknown>;
   revalidate?: number | false;
 }
 
